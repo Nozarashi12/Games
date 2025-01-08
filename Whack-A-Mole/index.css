@@ -1,0 +1,47 @@
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    /* margin-right:2px ; */
+}
+
+.square{
+border: 1px solid black;
+height: 150px;
+width: 150px;
+}
+
+.header{
+    /* width: 1500px; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.mole{
+    background-color: blue;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+body{
+    background-color: rgb(233, 163, 198);
+}
+
+#title{
+    /* background-color: white; */
+    /* width: 100vw; */
+    /* align-items: center; */
+    /* justify-self: center; */
+}
